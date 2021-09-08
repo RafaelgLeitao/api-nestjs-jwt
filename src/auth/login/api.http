@@ -1,0 +1,11 @@
+POST  http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "rleitao2@leucotron.com.br",
+    "password": "123456"
+}
+
+###
+GET  http://localhost:3000/test-auth
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXJuYW1lIjoicmxlaXRhbzJAbGV1Y290cm9uLmNvbS5iciIsInJvbGUiOiJVc2VyIiwiaWF0IjoxNjMxMDk4OTg5LCJleHAiOjE2MzEwOTkwNDl9.-SS63FRgijhYupwQFpw90Xq3tvbTbYdJgF9kYP_x3N0
